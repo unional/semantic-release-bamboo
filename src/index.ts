@@ -4,15 +4,16 @@ import envCI from 'env-ci'
 export function verifyConditions(pluginConfig, params) {
   console.log('pluginConfig', pluginConfig)
   console.log('params', params)
+  const env = envCI()
   // TODO: check for token?
-  console.log('env.service', envCI.service())
-  console.log('env.buildUrl', envCI.buildUrl())
-  console.log('env.branch', envCI.branch())
-  console.log('env.job', envCI.job())
+  console.log('env.service', env.service)
+  console.log('env.buildUrl', env.buildUrl)
+  console.log('env.branch', env.branch)
+  console.log('env.job', env.job)
 
-  if (!envCI.isCi())
+  if (!env.isCi)
     throw new SRError('not running on CI', 'EVERIFYCONDITIONS')
-  if (envCI.service() !== 'bamboo')
+  if (env.service !== 'bamboo')
     throw new SRError('not running on bamboo', 'EVERIFYCONDITIONS')
 }
 

@@ -15,9 +15,9 @@
     "dependency-check": "dependency-check . --unused --no-dev && dependency-check . --missing --no-dev",
     "lint": "tslint -p tsconfig.json 'src/**/*.ts'",
     "prepublishOnly": "npm run build",
-    "_test": "npm run clean && tsc && ava",
-    ")verify": "npm run lint && npm run coverage && npm run build && npm run bundle && npm run dependency-check",
-    "watch": "npm run clean && node scripts/watch.js",
+    "test": "jest",
+    "_verify": "npm run lint && npm run coverage && npm run build && npm run bundle && npm run dependency-check",
+    "watch": "jest --watch",
     "semantic-release": "semantic-release"
   },
   "author": {
@@ -33,11 +33,26 @@
     "url": "https://github.com/unional/semantic-release-bamboo.git"
   },
   "license": "MIT",
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "mapCoverage": true,
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
   "devDependencies": {
+    "@types/jest": "^22.1.2",
     "@types/node": "^9.4.4",
     "dependency-check": "^3.0.0",
+    "jest": "^22.2.2",
     "rimraf": "^2.6.2",
     "semantic-release": "^12.4.1",
+    "ts-jest": "^22.0.3",
     "tslint": "^5.9.1",
     "tslint-config-unional": "^0.9.0",
     "typescript": "^2.7.1"
