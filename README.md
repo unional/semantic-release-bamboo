@@ -12,7 +12,7 @@
 [![Visual Studio Code][vscode-image]][vscode-url]
 [![Wallaby.js][wallaby-image]][wallaby-url]
 
-`semantic-release` plugin for Bamboo.
+[`semantic-release`](https://github.com/semantic-release/semantic-release) plugin for [Bamboo](https://www.atlassian.com/software/bamboo).
 
 ## Usage
 
