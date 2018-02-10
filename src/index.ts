@@ -1,17 +1,32 @@
 import SRError from '@semantic-release/error'
 import envCI from 'env-ci'
 
-export function verifyConditions(pluginConfig, params) {
+export interface PluginConfig {
+  branch: string,
+  repositoryUrl: string,
+  ci: boolean
+}
+
+export interface Params {
+  options: {
+    branch: string,
+    repositoryUrl: string,
+    ci: boolean,
+    dryRun: boolean
+  },
+  looger: {
+    log: Function,
+    error: Function
+  }
+}
+
+export function verifyConditions(pluginConfig: PluginConfig, params: Params) {
   console.log('pluginConfig', pluginConfig)
   console.log('params', params)
   const env = envCI()
-  // TODO: check for token?
-  console.log('env.service', env.service)
-  console.log('env.buildUrl', env.buildUrl)
-  console.log('env.branch', env.branch)
-  console.log('env.job', env.job)
+  console.log(env)
 
-  if (!env.isCi)
+  if (!pluginConfig.ci)
     throw new SRError('not running on CI', 'EVERIFYCONDITIONS')
   if (env.service !== 'bamboo')
     throw new SRError('not running on bamboo', 'EVERIFYCONDITIONS')
