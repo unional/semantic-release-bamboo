@@ -14,17 +14,17 @@ export interface Params {
     ci: boolean,
     dryRun: boolean
   },
-  looger: {
-    log: Function,
-    error: Function
+  logger: {
+    log: (...args: any[]) => void,
+    error: (...args: any[]) => void
   }
 }
 
 export function verifyConditions(pluginConfig: PluginConfig, params: Params) {
-  console.log('pluginConfig', pluginConfig)
-  console.log('params', params)
+  console.info('pluginConfig', pluginConfig)
+  console.info('params', params)
   const env = envCI()
-  console.log(env)
+  console.info(env)
 
   if (!pluginConfig.ci)
     throw new SRError('not running on CI', 'EVERIFYCONDITIONS')

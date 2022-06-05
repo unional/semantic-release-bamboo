@@ -43,6 +43,15 @@ node_modules
 # typings
 typings
 
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # project folders
 dist
 dist-es5
