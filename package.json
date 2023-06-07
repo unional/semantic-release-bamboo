@@ -37,7 +37,7 @@
     "watch": "jest --watch"
   },
   "dependencies": {
-    "@semantic-release/error": "^3.0.0",
+    "@semantic-release/error": "^4.0.0",
     "env-ci": "^9.0.0"
   },
   "devDependencies": {
