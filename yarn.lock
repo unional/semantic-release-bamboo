@@ -3779,6 +3779,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"env-ci@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "env-ci@npm:10.0.0"
+  dependencies:
+    execa: ^8.0.0
+    java-properties: ^1.0.2
+  checksum: 9ecabebaf79cba7faeead3310d1bad242c12ce00b6b5c42d72ea0f83fd7f3dbd8372f4fc7fdc763cc35c76ad5bda16987253027399f7b0b5ebcc7be2b7b6758b
+  languageName: node
+  linkType: hard
+
 "env-ci@npm:^9.0.0":
   version: 9.0.0
   resolution: "env-ci@npm:9.0.0"
@@ -8638,7 +8648,7 @@ __metadata:
     "@types/jest": 29.5.5
     "@typescript-eslint/eslint-plugin": ^6.0.0
     depcheck: ^1.4.3
-    env-ci: ^9.0.0
+    env-ci: ^10.0.0
     eslint: 8.50.0
     eslint-plugin-harmony: ^7.1.0
     husky: ^8.0.1
