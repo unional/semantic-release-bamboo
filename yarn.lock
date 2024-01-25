@@ -5038,12 +5038,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "husky@npm:8.0.1"
+"husky@npm:^9.0.0":
+  version: 9.0.1
+  resolution: "husky@npm:9.0.1"
   bin:
-    husky: lib/bin.js
-  checksum: 8/943a73a13d0201318fd30e83d299bb81d866bd245b69e6277804c3b462638dc1921694cb94c2b8c920a4a187060f7d6058d3365152865406352e934c5fff70dc
+    husky: bin.js
+  checksum: d7f3d158fffc8cc91211172637f7069b2173dbf5e732f46596a2a512e5f5f17ddebd895202cc67b0f159b747b698e2cc5601282b198d9cb5d97a5671fcb2afb7
   languageName: node
   linkType: hard
 
@@ -8742,7 +8742,7 @@ __metadata:
     env-ci: "npm:^11.0.0"
     eslint: "npm:8.56.0"
     eslint-plugin-harmony: "npm:^7.1.0"
-    husky: "npm:^8.0.1"
+    husky: "npm:^9.0.0"
     jest: "npm:29.7.0"
     jest-validate: "npm:29.7.0"
     jest-watch-suspend: "npm:^1.1.2"
