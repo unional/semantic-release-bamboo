@@ -61,7 +61,7 @@
     "npm-run-all2": "^6.0.0",
     "pinst": "^3.0.0",
     "rimraf": "^5.0.0",
-    "semantic-release": "^23.0.0",
+    "semantic-release": "^24.0.0",
     "ts-jest": "^29.0.0",
     "typedoc": "^0.25.0",
     "typedoc-plugin-extras": "^3.0.0",
