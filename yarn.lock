@@ -4584,18 +4584,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "glob@npm:10.0.0"
-  dependencies:
-    fs.realpath: "npm:^1.0.0"
-    minimatch: "npm:^9.0.0"
-    minipass: "npm:^5.0.0"
-    path-scurry: "npm:^1.6.4"
-  checksum: 8/3852a6b847106c431d87fb3e8cccb6cfc4449de3ab5d0216c44d4e2da2616df220058050d16811c42f0c2148ad8981da828227ae5c5ab798091ef27c903429f6
-  languageName: node
-  linkType: hard
-
 "glob@npm:^10.2.2":
   version: 10.3.4
   resolution: "glob@npm:10.3.4"
@@ -4623,6 +4611,22 @@ __metadata:
   bin:
     glob: dist/esm/bin.mjs
   checksum: 10c0/13d8a1feb7eac7945f8c8480e11cd4a44b24d26503d99a8d8ac8d5aefbf3e9802a2b6087318a829fad04cb4e829f25c5f4f1110c68966c498720dd261c7e344d
+  languageName: node
+  linkType: hard
+
+"glob@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "glob@npm:11.0.0"
+  dependencies:
+    foreground-child: "npm:^3.1.0"
+    jackspeak: "npm:^4.0.1"
+    minimatch: "npm:^10.0.0"
+    minipass: "npm:^7.1.2"
+    package-json-from-dist: "npm:^1.0.0"
+    path-scurry: "npm:^2.0.0"
+  bin:
+    glob: dist/esm/bin.mjs
+  checksum: 10c0/419866015d8795258a8ac51de5b9d1a99c72634fc3ead93338e4da388e89773ab21681e494eac0fbc4250b003451ca3110bb4f1c9393d15d14466270094fdb4e
   languageName: node
   linkType: hard
 
@@ -5383,6 +5387,19 @@ __metadata:
     "@pkgjs/parseargs":
       optional: true
   checksum: 10c0/f01d8f972d894cd7638bc338e9ef5ddb86f7b208ce177a36d718eac96ec86638a6efa17d0221b10073e64b45edc2ce15340db9380b1f5d5c5d000cbc517dc111
+  languageName: node
+  linkType: hard
+
+"jackspeak@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "jackspeak@npm:4.0.1"
+  dependencies:
+    "@isaacs/cliui": "npm:^8.0.2"
+    "@pkgjs/parseargs": "npm:^0.11.0"
+  dependenciesMeta:
+    "@pkgjs/parseargs":
+      optional: true
+  checksum: 10c0/c87997d9c9c5b7366259b1f2a444ef148692f8eedad5307caca939babbb60af2b47d306e5c63bf9d5fefbab2ab48d4da275188c3de525d0e716cc21b784bbccb
   languageName: node
   linkType: hard
 
@@ -6512,6 +6529,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lru-cache@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "lru-cache@npm:11.0.0"
+  checksum: 10c0/827ff0e0739f9b0f30f92f5a5fc97c6a2bd3ae32c0452bc58cb7411d6c589d49536073027293f2d1f02d0c2e72b63b162f238df7e9ff6f4cc0345f92afec4d1d
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
   resolution: "lru-cache@npm:6.0.0"
@@ -6532,13 +6556,6 @@ __metadata:
   version: 7.10.1
   resolution: "lru-cache@npm:7.10.1"
   checksum: 8/e8b190d71ed0fcd7b29c71a3e9b01f851c92d1ef8865ff06b5581ca991db1e5e006920ed4da8b56da1910664ed51abfd76c46fb55e82ac252ff6c970ff910d72
-  languageName: node
-  linkType: hard
-
-"lru-cache@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "lru-cache@npm:9.0.0"
-  checksum: 8/d90173404f4f2b48d238c361eaa5ff302507b9be65beb71282147e18a50d4b521361df99d7ded199b6c2e6451078c417d64d9d649e466f2bed8b5de2795cbbb6
   languageName: node
   linkType: hard
 
@@ -6751,6 +6768,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimatch@npm:^10.0.0":
+  version: 10.0.1
+  resolution: "minimatch@npm:10.0.1"
+  dependencies:
+    brace-expansion: "npm:^2.0.1"
+  checksum: 10c0/e6c29a81fe83e1877ad51348306be2e8aeca18c88fdee7a99df44322314279e15799e41d7cb274e4e8bb0b451a3bc622d6182e157dfa1717d6cda75e9cd8cd5d
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4, minimatch@npm:^3.1.1, minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -6929,6 +6955,13 @@ __metadata:
   version: 7.0.4
   resolution: "minipass@npm:7.0.4"
   checksum: 10c0/6c7370a6dfd257bf18222da581ba89a5eaedca10e158781232a8b5542a90547540b4b9b7e7f490e4cda43acfbd12e086f0453728ecf8c19e0ef6921bc5958ac5
+  languageName: node
+  linkType: hard
+
+"minipass@npm:^7.1.2":
+  version: 7.1.2
+  resolution: "minipass@npm:7.1.2"
+  checksum: 10c0/b0fd20bb9fb56e5fa9a8bfac539e8915ae07430a619e4b86ff71f5fc757ef3924b23b2c4230393af1eda647ed3d75739e4e0acb250a6b1eb277cf7f8fe449557
   languageName: node
   linkType: hard
 
@@ -7627,6 +7660,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"package-json-from-dist@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "package-json-from-dist@npm:1.0.0"
+  checksum: 10c0/e3ffaf6ac1040ab6082a658230c041ad14e72fabe99076a2081bb1d5d41210f11872403fc09082daf4387fc0baa6577f96c9c0e94c90c394fd57794b66aa4033
+  languageName: node
+  linkType: hard
+
 "pacote@npm:^17.0.0, pacote@npm:^17.0.4":
   version: 17.0.4
   resolution: "pacote@npm:17.0.4"
@@ -7848,13 +7888,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-scurry@npm:^1.6.4":
-  version: 1.6.4
-  resolution: "path-scurry@npm:1.6.4"
+"path-scurry@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "path-scurry@npm:2.0.0"
   dependencies:
-    lru-cache: "npm:^9.0.0"
-    minipass: "npm:^5.0.0"
-  checksum: 8/bd5262b51dc35b0d6f0b1d4fa4445789839982bd649904f18fe43717ecc3021d2313a80768b56cd0428f5ca50d740a6c609e747cd6a053efaa802e07eb5b7b18
+    lru-cache: "npm:^11.0.0"
+    minipass: "npm:^7.1.2"
+  checksum: 10c0/3da4adedaa8e7ef8d6dc4f35a0ff8f05a9b4d8365f2b28047752b62d4c1ad73eec21e37b1579ef2d075920157856a3b52ae8309c480a6f1a8bbe06ff8e52b33c
   languageName: node
   linkType: hard
 
@@ -8423,14 +8463,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "rimraf@npm:5.0.0"
+"rimraf@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "rimraf@npm:6.0.0"
   dependencies:
-    glob: "npm:^10.0.0"
+    glob: "npm:^11.0.0"
   bin:
-    rimraf: dist/cjs/src/bin.js
-  checksum: 8/60c5a7f152014d4f6bbf23f48e6badd145960a9be1115b719a07ba688c760b1bb8270abd6650bbd184ae2011843d8e9c775409652c89ff97550418aa5d581b27
+    rimraf: dist/esm/bin.mjs
+  checksum: 10c0/32d07c542490db96efd515b27f857f45b71b2169a1b533052630d119034450d3afcf766adc2df43314378f9168407ef222d7d1104c48cc9d385e97b17964b3bf
   languageName: node
   linkType: hard
 
@@ -8511,7 +8551,7 @@ __metadata:
     jest-watch-typeahead: "npm:^2.0.0"
     npm-run-all2: "npm:^6.0.0"
     pinst: "npm:^3.0.0"
-    rimraf: "npm:^5.0.0"
+    rimraf: "npm:^6.0.0"
     semantic-release: "npm:^24.0.0"
     ts-jest: "npm:^29.0.0"
     typedoc: "npm:^0.26.0"
