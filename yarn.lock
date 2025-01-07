@@ -8787,7 +8787,7 @@ __metadata:
     semantic-release: "npm:^24.0.0"
     ts-jest: "npm:^29.0.0"
     typedoc: "npm:^0.27.0"
-    typedoc-plugin-extras: "npm:^3.0.0"
+    typedoc-plugin-extras: "npm:^4.0.0"
     typescript: "npm:5.7.2"
   languageName: unknown
   linkType: soft
@@ -9696,12 +9696,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc-plugin-extras@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "typedoc-plugin-extras@npm:3.0.0"
+"typedoc-plugin-extras@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "typedoc-plugin-extras@npm:4.0.0"
   peerDependencies:
-    typedoc: 0.25.x
-  checksum: 8/5daaf73f5a48d504c66bee45f62cb230419f369f0d368fc3d1a26f2e16f41b4b0d49f08a3ec271c1cc77bf6197d2759fce8c93d912119af0c59baacc22a3de23
+    typedoc: 0.27.x
+  checksum: 10c0/02181f397f0c0bbf24a54a1de2074e9f4f139595fb792ad9a0864a8b46378c2e4961b9b1efdcade49341b3a968a951600fde4cee5abd16240fa67b981bdeca28
   languageName: node
   linkType: hard
 
