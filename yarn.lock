@@ -4501,9 +4501,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.5.0":
-  version: 10.5.0
-  resolution: "eslint@npm:10.5.0"
+"eslint@npm:10.6.0":
+  version: 10.6.0
+  resolution: "eslint@npm:10.6.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.2"
@@ -4542,7 +4542,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/e1f7a1d442027e5478945cb07b6a382adc3f149fbfd3dbc14951a7a9fa312546b27fb35b0556897ca1d04539ad16ee85bda75ad9f724873e1153d1fbca0d6145
+  checksum: 10c0/ebe0261fc750afb7f1a0c5a14f5288e57b971e0bee9754b1620132d22ad0c23690183977b0c9514ffa7ad460768d689d3fb9792ad9267b6c6205e2e0c17d8563
   languageName: node
   linkType: hard
 
@@ -8835,14 +8835,14 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.18.1#optional!builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#optional!builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#optional!builtin<compat/resolve>::version=1.22.0&hash=9bd1a5"
   dependencies:
     is-core-module: "npm:^2.8.1"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 10/cb53ccafb067fb04989dbff2ce7186d03f4a55b7283eab91b545d614b336dc509faa5c71210ce77ab1a4b0f7de4ffbccc170febcbeef40bf5a09b9ddb05bf447
+  checksum: 10c0/0b6884d7e4de47926725237c1e157ee247dbe66ea43f4fa6fcfde81d7db812ad9aa66608741658514336bdf73ab07f635b414b639b9894a2368293cd811d2c5e
   languageName: node
   linkType: hard
 
@@ -8949,7 +8949,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^8.0.0"
     depcheck: "npm:^1.4.3"
     env-ci: "npm:^11.0.0"
-    eslint: "npm:10.5.0"
+    eslint: "npm:10.6.0"
     eslint-plugin-harmony: "npm:^7.1.0"
     husky: "npm:^9.0.0"
     jest: "npm:30.4.2"
